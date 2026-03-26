@@ -97,7 +97,7 @@ bingefinder/
 
 ## 👤 Author
 
-Lalit
+Prashant
 
 ---
 
