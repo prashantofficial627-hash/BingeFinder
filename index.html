@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TasteDive Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie & Show Finder</h1>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search movies, shows..." />
+      <button onclick="fetchData()">Search</button>
+    </div>
+
+    <div class="controls">
+      <select id="filterGenre">
+        <option value="">All Genres</option>
+      </select>
+
+      <select id="sortBy">
+        <option value="">Sort By</option>
+        <option value="name">Name (A–Z)</option>
+        <option value="rating">Rating (High–Low)</option>
+      </select>
+    </div>
+
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
